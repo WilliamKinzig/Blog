@@ -7,15 +7,20 @@
 
 
 .post1 {
-   color
+   color: #E27021;
+   font-size: 25px;
 }
 
 .post2 {
-
+   color: #242FA7;
+   font-size: 30px;
+   font-family: Arial;
 }
 
 .post3 {
-
+  color: #B2252E;
+  font-size: 45px;
+  font-family: Courier;
 
 }
 
@@ -24,11 +29,18 @@
   border-style: solid;
   width: 300px;
   margin: 60px auto;
+  padding: 30px;
   background-color: #B2E9FF;
+}
+
+.word {
+  font-size: 20px;
+  color: red;
 }
 
 body {
   background-image:url("2.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
+  background-attachment: fixed;
 }
